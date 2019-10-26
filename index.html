@@ -44,6 +44,12 @@
 
   <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+  <!-- owl-carousel Styles -->
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+
+
   <!-- Custom Scripts JS/jQuery -->
   <script src="js/app.js"></script>
   <link rel="stylesheet" href="css/animate.css">
@@ -51,6 +57,10 @@
 
   <!-- Custom Styles -->
   <link href="css/custom.css" rel="stylesheet">
+
+
+  <!-- Blog Styles -->
+  <link href="css/blog.css" rel="stylesheet">
 
 
   <!-- Creative Styles -->
@@ -135,6 +145,10 @@
               <a class="nav-link js-scroll-trigger" href="#portfolio">Works</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#blog-aria">Blog</a>
+            </li>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
@@ -156,28 +170,6 @@
         </a>
       </div>
     </header>
-
-    <!-- HEADER -->
-    <!-- <header style="padding-top:80px;" class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
-               <img src="img/Logo/logo.png" class="imgLogo img-responsive flipInX" width="300px" height="220px" alt="Logo">
-            </h1>
-            <br>
-            <br>
-            <br>
-            <br>
-            <hr class="homeHr">
-          </div>
-          <div class="added col-lg-8 mx-auto">
-            <br>
-            <a class="homeBtn btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-          </div>
-        </div>
-      </div>
-    </header> -->
 
 
     <!-- BACK TO TOP -->
@@ -438,6 +430,97 @@
     </section>
 
 
+    <div id="blog-aria">
+      <!--Blog title-->
+      <h2
+        style="text-align: center;color:#212529;padding-top:40px;font-size: 45px;font-weight: bold;font-family: AvenirLTStd;"
+        class="section-heading">Blog</h2>
+      <hr class="my-4">
+
+      <!-- Start Post Silder Area -->
+      <section class="post-slider-area">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="owl-carousel active-post-carusel">
+                <!-- single carousel item -->
+                <div class="single-post-carousel">
+                  <div class="post-thumb">
+                    <img class="img-fluid" src="img/posts/carousel/post1.jpg" alt="">
+                  </div>
+                  <div class="post-details">
+                    <h2><a href="#">Lorem ipsum dolor sit. <br>
+                        Lorem ipsum dolor.</a></h2>
+                    <div class="post-content d-flex justify-content-between">
+                      <div class="post-meta">
+                        <div class="thumb"><img src="img/author/a1.png" alt=""></div>
+                        <div class="c-desc">
+                          <h6>lorem ipsum</h6>
+                          <p><span class="lnr lnr-calendar-full"></span>26th Oct, 2019</p>
+                        </div>
+                      </div>
+                      <div class="details">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis iure. Fugit
+                          neque id doloribus vero distinctio.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- single carousel item -->
+                <div class="single-post-carousel">
+                  <div class="post-thumb">
+                    <img class="img-fluid" src="img/posts/carousel/post2.jpg" alt="">
+                  </div>
+                  <div class="post-details">
+                    <h2><a href="#">Lorem ipsum dolor sit. <br>
+                        Lorem ipsum dolor.</a></h2>
+                    <div class="post-content d-flex justify-content-between">
+                      <div class="post-meta">
+                        <div class="thumb"><img src="img/author/a1.png" alt=""></div>
+                        <div class="c-desc">
+                          <h6>lorem ipsum</h6>
+                          <p><span class="lnr lnr-calendar-full"></span>26th Oct, 2019</p>
+                        </div>
+                      </div>
+                      <div class="details">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis iure. Fugit
+                          neque id doloribus vero distinctio.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- single carousel item -->
+                <div class="single-post-carousel">
+                  <div class="post-thumb">
+                    <img class="img-fluid" src="img/posts/carousel/post3.jpg" alt="">
+                  </div>
+                  <div class="post-details">
+                    <h2><a href="#">Lorem ipsum dolor sit. <br>
+                        Lorem ipsum dolor.</a></h2>
+                    <div class="post-content d-flex justify-content-between">
+                      <div class="post-meta">
+                        <div class="thumb"><img src="img/author/a1.png" alt=""></div>
+                        <div class="c-desc">
+                          <h6>lorem ipsum</h6>
+                          <p><span class="lnr lnr-calendar-full"></span>26th Oct, 2019</p>
+                        </div>
+                      </div>
+                      <div class="details">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis iure. Fugit
+                          neque id doloribus vero distinctio.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Post Silder Area -->
+    </div>
+
+
     <!-- CONTACT SECTION-->
     <section class="masthead1 linkContact" id="contact">
       <div class="container">
@@ -505,7 +588,7 @@
                 href="mailto:#" style="text-decoration: none;color:#6F1D1B;">Info@mediaculture.com.sg</a></span></i><br>
           <i class="fa fa-user" style="font-size: 19.3px;"> <span style="font-family: AvenirLTStd;">&nbsp; BUSINESS
               REGISTRATION 53267</span></i>
-          <audio class="design" autoplay="autoplay" src="The_Escapist.mp3" controls="controls"></audio>
+          <audio class="design" src="The_Escapist.mp3" controls="controls"></audio>
         </div>
         <div class="col-md-6">
           <div class="googleMap">
@@ -568,6 +651,10 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+
+  <!-- Blog Scripts -->
+  <script src="js/blog.js"></script>
 
   <!-- Creative Scripts -->
   <script src="js/creative.js"></script>
