@@ -1,9 +1,9 @@
 /*CUSTOM FONT*/
 
- @font-face {
+@font-face {
     font-family: AvenirLTStd;
     src: url("AvenirLTStd-Book.otf") format("opentype");
-    }
+}
 
 
 body,
@@ -48,11 +48,11 @@ h6 {
 }
 
 .bg-primary {
-    background-color: #212529!important
+    background-color: #212529 !important
 }
 
 .bg-dark {
-    background-color: #212529!important
+    background-color: #212529 !important
 }
 
 .text-faded {
@@ -125,7 +125,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active,
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-    color: #6F1D1B!important;
+    color: #6F1D1B !important;
     transform: translateY(-3px);
     font-weight: bold;
     font-size: 15px;
@@ -143,39 +143,49 @@ img::-moz-selection {
         border-color: transparent;
         background-color: transparent
     }
+
     #mainNav .navbar-brand {
         color: rgba(255, 255, 255, .7)
     }
+
     #mainNav .navbar-brand:focus,
     #mainNav .navbar-brand:hover {
         color: #fff
     }
+
     #mainNav .navbar-nav>li.nav-item>a.nav-link {
         padding: .5rem 1rem
     }
+
     #mainNav .navbar-nav>li.nav-item>a.nav-link,
     #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
         color: #000;
     }
+
     #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
     #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
         color: #f05f40;
     }
+
     #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(255, 255, 255, .1);
         background-color: #fff
     }
+
     #mainNav.navbar-shrink .navbar-brand {
         color: #f05f40
     }
+
     #mainNav.navbar-shrink .navbar-brand:focus,
     #mainNav.navbar-shrink .navbar-brand:hover {
         color: #f05f40
     }
+
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
         color: #000;
     }
+
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
         color: #000;
@@ -219,6 +229,7 @@ header.masthead p {
         padding-top: 0;
         padding-bottom: 0
     }
+
     header.masthead h1 {
         font-size: 3rem
     }
@@ -292,13 +303,14 @@ header.masthead p {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px
     }
+
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px
     }
 }
 
 .text-primary {
-    color: #6F1D1B!important
+    color: #6F1D1B !important
 }
 
 .btn {
@@ -324,11 +336,10 @@ header.masthead p {
 .btn-primary:focus,
 .btn-primary:hover {
     color: #fff;
-    background-color: #212529!important
+    background-color: #212529 !important
 }
 
 .btn-primary:active,
 .btn-primary:focus {
     box-shadow: 0 0 0 0.0rem rgba(240, 95, 64, 0.5) !important;
 }
-

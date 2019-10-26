@@ -85,21 +85,19 @@ h2.vidIntro {
 
 
 @media screen and (max-width: 3000px) and (min-width: 1px) {
-    video.video {
-        width:100%;
-        height: auto;
-    }
+  video.video {
+    width: 100%;
+    height: auto;
+  }
 }
 
 
-video.video {
-
-}
+video.video {}
 
 
 
 .mastheadVid {
-    padding-top: 10rem;
+  padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-position: center center;
   -webkit-background-size: cover;
