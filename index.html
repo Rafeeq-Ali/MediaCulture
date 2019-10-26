@@ -11,7 +11,6 @@
     Illustration,Infographics,Web & Mobile,Audio Editing,Commercial & Corporate Videography,Events Videography,
     HD & 4K Media Authoring,Highlights and Same-Day Edit,Post-Production & Location Crew Set,35mm Film & Photo Restoration,Events Photography,Frames & Photobooks,Make-Up Artist & Hair-Stylist,Indoor & Outdoor Portrait Photoshoot,Photo Booth & Instant Print">
   <meta name="author" content="Media Culture">
-
   <meta name="author" content="John Doe">
 
   <!-- favIcon -->
@@ -20,13 +19,13 @@
 
 
   <!-- VIDEO ANIMATION #1 -->
-
   <link rel="stylesheet" href="css/vidAnimation.css">
   <script src="js/videoJS.js"></script>
 
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
 
   <!-- Custom fonts for this template -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
@@ -49,13 +48,16 @@
   <script src="js/app.js"></script>
   <link rel="stylesheet" href="css/animate.css">
 
+
   <!-- Custom Styles -->
   <link href="css/custom.css" rel="stylesheet">
+
+
   <!-- Creative Styles -->
   <link href="css/creative.min.css" rel="stylesheet">
 
-  <!-- FONTS -->
 
+  <!-- FONTS -->
   <style type="text/css">
     @font-face {
       font-family: AvenirLTStd;
@@ -65,7 +67,6 @@
 
 
   <!-- Contact Script -->
-
   <script>
     $(document).ready(function () {
       // Test for placeholder support
@@ -73,20 +74,16 @@
         var i = document.createElement('input');
         return 'placeholder' in i;
       })();
-
       // Hide labels by default if placeholders are supported
       if ($.support.placeholder) {
         $('.form-label').each(function () {
           $(this).addClass('js-hide-label');
         });
-
         // Code for adding/removing classes here
         $('.form-group').find('input, textarea').on('keyup blur focus', function (e) {
-
           // Cache our selectors
           var $this = $(this),
             $parent = $this.parent().find("label");
-
           if (e.type == 'keyup') {
             if ($this.val() == '') {
               $parent.addClass('js-hide-label');
@@ -112,43 +109,12 @@
 </head>
 
 <body id="page-top" id="linkToTop">
-
   <div class="ovr-hidden">
-    <!-- VIDEO ANIMATION #1-->
-
-    <!-- <section class="fullsize-video-bg">
-  <div class="inner">
-    <div>
-      <h1>Responsive Background Video</h1>
-      <p>with color and dot-grid overlay</p>
-    </div>
-  </div>
-  <div id="video-viewport">
-    <video width="1920" height="1280" autoplay muted loop>
-      <source src="Logo_introduction.mp4" type="video/mp4" />
-      <source src="Logo_introduction.mp4" type="video/webm" />
-    </video>
-  </div>
-</section> -->
-
-    <!-- VIDEO ANIMATION #2 -->
-    <!-- <div id="video-container">
-<div class="video-overlay"></div>
-  <div class="video-content">
-    <div class="inner">
-      <a class="homeBtn btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-    </div>
-  </div>
-  <video autoplay muted loop src="Logo_Introduction.mp4"></video>
-</div> -->
-
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-
-        </a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
         <button id="linkToTop" class="toggle navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
           data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -178,7 +144,6 @@
 
     <!-- VIDEO ANIMATION -->
     <!-- maybe include in header? -->
-
     <header style="background-color:#212529;">
       <video class="video" autoplay="false" muted loop id="myVideo">
         <source src="Logo_introduction.mp4" type="video/mp4">
@@ -214,40 +179,30 @@
       </div>
     </header> -->
 
+
     <!-- BACK TO TOP -->
-    <button onclick="topFunction()" id="myBtn" class="slideAnimationRight" title=""><span class="Btn">
+    <button onclick="topFunction()" id="myBtn" class="slideAnimationRight" title="">
+      <span class="Btn">
         <i class="fa fa-angle-up colorized"></i>
-
-
-      </span></button>
+      </span>
+    </button>
 
 
     <!-- About Section -->
     <section class="masthead" id="about">
-
-
       <div class="container-fluid">
         <div class="row" id="center">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto text-center">
             <!-- <h2 class="aboutSec section-heading text-white" style="font-family: AvenirLTStd;">We've got what you need!</h2>
-            
             <hr class="custom"> -->
-
             <div id="aboutPage">
-              <p class="text-faded mb-4 slideanim">
-
-                Greetings from Media Culture and welcome to our website. Since its inception in photography was our
+              <p class="text-faded mb-4 slideanim">Greetings from Media Culture and welcome to our website. Since its
+                inception in photography was our
                 initial passion. Now we have proudly extended our services to digital designing, videography and
                 production. Over the years we have led where others merely follow by innovating and pushing our
                 boundaries on nothing but perfection in which we now excel.</p>
-
-
-
-
-
               <h5 class="section-heading text-white slideanim" style="font-family: AvenirLTStd;">Let's take a look at
                 what we provide, shall we?</h5>
-
               <br>
               <a class="btn btn-primary2 btn-xl js-scroll-trigger" href="#services">Click Below!</a>
             </div>
@@ -257,30 +212,26 @@
     </section>
 
 
-
-
     <!-- SERVICE SECTION 1-->
     <section id="services" class="masthead1">
-      <!--  <div class="container">
+      <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading slideanim">At Your Service</h2>
             <hr class="my-4">
           </div>
         </div>
-      </div> -->
+      </div>
       <div class="container">
         <div class="row" id="center">
 
           <!-- FIRST SERVICE -->
-
 
           <!-- Left Leyout -->
           <div class="overflow col-lg-8 col-md-8 text-center" style="border:0.1px dotted black;">
 
             <!-- <img src="img/portfolio/fullsize/1.jpg" class="img-responsive" alt=""> -->
             <span class="res" style="position:relative;top:140px;">Left Layout</span>
-
           </div>
 
 
@@ -306,10 +257,8 @@
     </section>
 
 
-
     <!-- Horizontal Line between services -->
     <hr class="custom1">
-
 
 
     <!-- SERVICE SECTION 2 -->
@@ -317,21 +266,18 @@
       <div class="container">
         <div class="row" id="center">
 
-
           <!-- Left Leyout -->
           <div class="overflow col-lg-8 col-md-8 text-center" style="border:0.1px dotted black;">
 
             <!-- <img src="img/portfolio/fullsize/1.jpg" class="img-responsive" alt=""> -->
             <span class="res" style="position:relative;top:140px;">Left Layout</span>
-
           </div>
-
 
           <!-- Right Layout -->
           <div class="col-lg-4 col-md-4 text-center">
             <div class=" service-box mt-5 mx-auto ">
-              <!-- <i style="opacity: 0.62;" class="fa fa-4x fa-audio-description text-primary mb-3 sr-icons"></i> -->
 
+              <!-- <i style="opacity: 0.62;" class="fa fa-4x fa-audio-description text-primary mb-3 sr-icons"></i> -->
               <h3 class="mb-3" style="text-transform: uppercase;font-size:55px;font-family: AvenirLTStd;"> Motion
               </h3>
               <ul class="services slideanim">
@@ -348,11 +294,9 @@
       </div>
     </section>
 
+
     <!-- Horizontal Line between services -->
     <hr class="custom1">
-
-
-
 
 
     <!-- SERVICE SECTION 3 -->
@@ -360,24 +304,20 @@
       <div class="container">
         <div class="row" id="center">
 
-
           <!-- Left Leyout -->
           <div class="overflow col-lg-8 col-md-8 text-center" style="border:0.1px dotted black;">
 
             <!-- <img src="img/portfolio/fullsize/1.jpg" class="img-responsive" alt=""> -->
             <span class="res" style="position:relative;top:140px;">Left Layout</span>
-
           </div>
-
 
           <!-- Right Layout -->
           <div class="col-lg-4 col-md-4">
             <div class=" service-box mt-5 mx-auto ">
-              <!-- <i style="opacity: 0.62;" class="fa fa-4x fa-audio-description text-primary mb-3 sr-icons"></i> -->
 
+              <!-- <i style="opacity: 0.62;" class="fa fa-4x fa-audio-description text-primary mb-3 sr-icons"></i> -->
               <h3 class="mb-3" style="text-transform: uppercase;font-size:55px;font-family: AvenirLTStd;"> Stills
               </h3>
-
               <ul class="services slideanim">
                 <li>35mm Film & Photo Restoration</li>
                 <li>Events Photography</li>
@@ -393,15 +333,7 @@
     </section>
 
 
-
-
-
-
-
-
-
     <!-- WORKS -->
-
     <section style="background-color: #E4D4C4;" class=" p-0" id="portfolio">
       <div class="works container-fluid p-0">
         <h2
@@ -506,14 +438,7 @@
     </section>
 
 
-
-
-
-
-
-
     <!-- CONTACT SECTION-->
-
     <section class="masthead1 linkContact" id="contact">
       <div class="container">
         <div class="row" id="contact">
@@ -524,13 +449,8 @@
           </div>
         </div>
 
-
-
-
         <!-- FORM -->
-
         <div class="container">
-
           <div class="row">
             <div class="col-md-6 offset-md-3">
               <form id="contact-form" class="form " action="#" method="POST" role="form">
@@ -539,9 +459,7 @@
                   <input type="text" class="form-control" id="name" name="name" placeholder="NAME" tabindex="1"
                     required>
                 </div>
-
                 <div class="row">
-
                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
                     <div class="form-group">
                       <label class="form-label" for="subject">Contact</label>
@@ -549,9 +467,6 @@
                         tabindex="3">
                     </div>
                   </div>
-
-
-
                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
                     <div class="form-group">
                       <label class="form-label" for="email">Email</label>
@@ -559,8 +474,6 @@
                         required>
                     </div>
                   </div>
-
-
                 </div>
                 <div class="form-group">
                   <label class="form-label" for="message">Message</label>
@@ -577,8 +490,8 @@
       </div>
     </section>
 
-    <!-- BEFORE FOOTER -->
 
+    <!-- BEFORE FOOTER -->
     <div class="container p-0" id="moved">
       <div class="row align-items-center">
         <div class="leftouter col-md-6 slideanim">
@@ -594,7 +507,6 @@
               REGISTRATION 53267</span></i>
           <audio class="design" autoplay="autoplay" src="The_Escapist.mp3" controls="controls"></audio>
         </div>
-
         <div class="col-md-6">
           <div class="googleMap">
             <div class="mapouter">
@@ -636,10 +548,7 @@
       </div>
     </div>
 
-
-
     <br><br>
-
 
     <!-- FOOTER -->
     <footer>
@@ -649,7 +558,6 @@
 
   </div>
   <!--/.ovr-hidden-->
-
 
 
   <!-- Bootstrap core JavaScript -->
@@ -663,7 +571,6 @@
 
   <!-- Creative Scripts -->
   <script src="js/creative.js"></script>
-
 
 
 </body>
