@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Media Culture services">
+  <meta name="keywords"
+    content="Design,Motion,Stills,2D & 3D Models,Advertisment,Corporate Identity,
+    Illustration,Infographics,Web & Mobile,Audio Editing,Commercial & Corporate Videography,Events Videography,
+    HD & 4K Media Authoring,Highlights and Same-Day Edit,Post-Production & Location Crew Set,35mm Film & Photo Restoration,Events Photography,Frames & Photobooks,Make-Up Artist & Hair-Stylist,Indoor & Outdoor Portrait Photoshoot,Photo Booth & Instant Print">
+  <meta name="author" content="Media Culture">
+  <meta name="author" content="John Doe">
+
+  <!-- favIcon -->
+  <link rel="icon" type="image/png" href="img/Logo/logo.png" />
+  <title>Media Culture</title>
+
+
+  <!-- VIDEO ANIMATION #1 -->
+  <link rel="stylesheet" href="css/vidAnimation.css">
+  <script src="js/videoJS.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Custom fonts for this site -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+
+
+  <!-- Custom Responsive CSS -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+  <!-- Custom Scripts JS/jQuery -->
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" href="css/animate.css">
+
+
+  <!-- Custom Styles -->
+  <link href="css/custom.css" rel="stylesheet">
+
+
+  <!-- Creative Styles -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+
+  <!-- FONTS -->
+  <style type="text/css">
+    @font-face {
+      font-family: AvenirLTStd;
+      src: url("AvenirLTStd-Book.otf") format("opentype");
+    }
+  </style>
+
+
+  <!-- Contact Script -->
+  <script>
+    $(document).ready(function () {
+      // Test for placeholder support
+      $.support.placeholder = (function () {
+        var i = document.createElement('input');
+        return 'placeholder' in i;
+      })();
+
+      // Hide labels by default if placeholders are supported
+      if ($.support.placeholder) {
+        $('.form-label').each(function () {
+          $(this).addClass('js-hide-label');
+        });
+
+        // Code for adding/removing classes here
+        $('.form-group').find('input, textarea').on('keyup blur focus', function (e) {
+
+          // Cache our selectors
+          var $this = $(this),
+            $parent = $this.parent().find("label");
+
+          if (e.type == 'keyup') {
+            if ($this.val() == '') {
+              $parent.addClass('js-hide-label');
+            } else {
+              $parent.removeClass('js-hide-label');
+            }
+          } else if (e.type == 'blur') {
+            if ($this.val() == '') {
+              $parent.addClass('js-hide-label');
+            } else {
+              $parent.removeClass('js-hide-label').addClass('js-unhighlight-label');
+            }
+          } else if (e.type == 'focus') {
+            if ($this.val() !== '') {
+              $parent.removeClass('js-unhighlight-label');
+            }
+          }
+        });
+      }
+    });
+  </script>
+
+</head>
+
+<body id="page-top" id="linkToTop">
+
+  <div class="ovr-hidden">
+    <!-- VIDEO ANIMATION #1-->
+
+    <!-- <section class="fullsize-video-bg">
+  <div class="inner">
+    <div>
+      <h1>Responsive Background Video</h1>
+      <p>with color and dot-grid overlay</p>
+    </div>
+  </div>
+  <div id="video-viewport">
+    <video width="1920" height="1280" autoplay muted loop>
+      <source src="Logo_introduction.mp4" type="video/mp4" />
+      <source src="Logo_introduction.mp4" type="video/webm" />
+    </video>
+  </div>
+</section> -->
+
+    <!-- VIDEO ANIMATION #2 -->
+    <!-- <div id="video-container">
+<div class="video-overlay"></div>
+  <div class="video-content">
+    <div class="inner">
+      <a class="homeBtn btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+    </div>
+  </div>
+  <video autoplay muted loop src="Logo_Introduction.mp4"></video>
+</div> -->
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+        <button id="linkToTop" class="toggle navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav m-auto" style="font-family: AvenirLTStd;">
+            <li class="nav-item">
+              <a class="home activeHome nav-link js-scroll-trigger" href="#linkToTop">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- VIDEO ANIMATION -->
+    <!-- maybe include in header? -->
+
+    <header style="background-color:#212529;">
+      <video class="video" autoplay="autoplay" muted="muted" loop="loop" id="myVideo">
+        <source src="Logo_introduction.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="added centered">
+        <!-- <hr class="homeHr"> -->
+        <a class="homeArrow js-scroll-trigger" href="#about">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- HEADER -->
+    <!-- <header style="padding-top:80px;" class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <img src="img/Logo/logo.png" class="imgLogo img-responsive flipInX" width="300px" height="220px" alt="Logo">
+            </h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr class="homeHr">
+          </div>
+          <div class="added col-lg-8 mx-auto">
+            <br>
+            <a class="homeBtn btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header> -->
+
+    <!-- BACK TO TOP -->
+    <button onclick="topFunction()" id="myBtn" class="slideAnimationRight" title="">
+      <span class="Btn">
+        <i class="fa fa-angle-up colorized"></i>
+      </span>
+    </button>
+
+
+    <!-- About Section -->
+    <section class="masthead" id="about">
+      <div class="container-fluid">
+        <div class="row" id="center">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto text-center">
+            <!-- <h2 class="aboutSec section-heading text-white" style="font-family: AvenirLTStd;">We've got what you need!</h2>
+            <hr class="custom"> -->
+            <div id="aboutPage">
+              <p class="text-faded mb-4 slideanim">
+                Greetings from Media Culture and welcome to our website. Since its inception in photography was our
+                initial passion. Now we have proudly extended our services to digital designing, videography and
+                production. Over the years we have led where others merely follow by innovating and pushing our
+                boundaries on nothing but perfection in which we now excel.</p>
+              <h5 class="section-heading text-white slideanim" style="font-family: AvenirLTStd;">Let's take a look at
+                what we provide, shall we?</h5>
+              <br>
+              <a class="btn btn-primary2 btn-xl js-scroll-trigger" href="#services">Click Below!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SERVICE SECTION 1-->
+    <section id="services" class="masthead1">
+      <!--  <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading slideanim">At Your Service</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="row" id="center">
+
+          <!-- FIRST SERVICE -->
+
+
+          <!-- Left Leyout -->
+          <div class="overflow col-lg-8 col-md-8 text-center" style="border:0.1px dotted black;">
+
+            <!-- <img src="img/portfolio/fullsize/1.jpg" class="img-responsive" alt=""> -->
+            <span class="res" style="position:relative;top:140px;">Left Layout</span>
+
+          </div>
+
+
+          <!-- Right Layout -->
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class=" service-box mt-5 mx-auto ">
+              <!-- <i style="opacity: 0.62;" class="fa fa-4x fa-audio-description text-primary mb-3 sr-icons"></i> -->
+
+              <h3 class="mb-3" style="text-transform: uppercase;font-size:55px;font-family: AvenirLTStd;"> Design
+              </h3>
+              <ul class="services slideanim">
+                <li>2D & 3D Models</li>
+                <li>Advertisment</li>
+                <li>Corporate Identity</li>
+                <li>Illustration</li>
+                <li>Infographics</li>
+                <li>Web & Mobile</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Horizontal Line between services -->
+    <hr class="custom1">
+
+
+
+    <!-- SERVICE SECTION 2 -->
+    <section id="services" class="masthead1">
+      <div class="container">
+        <div class="row" id="center">
+
+
+          <!-- Left Leyout -->
+          <div class="overflow col-lg-8 col-md-8 text-center" style="border:0.1px dotted black;">
+
+            <!-- <img src="img/portfolio/fullsize/1.jpg" class="img-responsive" alt=""> -->
+            <span class="res" style="position:relative;top:140px;">Left Layout</span>
+
+          </div>
+
+
+          <!-- Right Layout -->
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class=" service-box mt-5 mx-auto ">
+              <!-- <i style="opacity: 0.62;" class="fa fa-4x fa-audio-description text-primary mb-3 sr-icons"></i> -->
+
+              <h3 class="mb-3" style="text-transform: uppercase;font-size:55px;font-family: AvenirLTStd;"> Motion
+              </h3>
+              <ul class="services slideanim">
+                <li>Audio Editing</li>
+                <li>Commercial & Corporate Videography</li>
+                <li>Events Videography</li>
+                <li>HD & 4K Media Authoring</li>
+                <li>Highlights and Same-Day Edit</li>
+                <li>Post-Production & Location Crew Set</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Horizontal Line between services -->
+    <hr class="custom1">
+
+
+
+
+
+    <!-- SERVICE SECTION 3 -->
+    <section id="services" class="masthead1">
+      <div class="container">
+        <div class="row" id="center">
+
+
+          <!-- Left Leyout -->
+          <div class="overflow col-lg-8 col-md-8 text-center" style="border:0.1px dotted black;">
+
+            <!-- <img src="img/portfolio/fullsize/1.jpg" class="img-responsive" alt=""> -->
+            <span class="res" style="position:relative;top:140px;">Left Layout</span>
+
+          </div>
+
+
+          <!-- Right Layout -->
+          <div class="col-lg-4 col-md-4">
+            <div class=" service-box mt-5 mx-auto ">
+              <!-- <i style="opacity: 0.62;" class="fa fa-4x fa-audio-description text-primary mb-3 sr-icons"></i> -->
+
+              <h3 class="mb-3" style="text-transform: uppercase;font-size:55px;font-family: AvenirLTStd;"> Stills
+              </h3>
+
+              <ul class="services slideanim">
+                <li>35mm Film & Photo Restoration</li>
+                <li>Events Photography</li>
+                <li>Frames & Photobooks</li>
+                <li>Make-Up Artist & Hair-Stylist</li>
+                <li>Indoor & Outdoor Portrait Photoshoot</li>
+                <li>Photo Booth & Instant Print</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- WORKS -->
+
+    <section style="background-color: #E4D4C4;" class=" p-0" id="portfolio">
+      <div class="works container-fluid p-0">
+        <h2
+          style="text-align: center;color:#212529;padding-top:40px;font-size: 45px;font-weight: bold;font-family: AvenirLTStd;"
+          class="section-heading">Our Works</h2>
+        <hr class="my-4">
+        <p class="text-faded mb-4 slideanim" style="text-align: center;color:#212529">Below you can check all of our
+          works.</p>
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- CONTACT SECTION-->
+
+    <section class="masthead1 linkContact" id="contact">
+      <div class="container">
+        <div class="row" id="contact">
+          <div class="col-md-12 mx-auto text-center">
+            <h2 class="contact section-heading" style="font-size:30px;font-family: AvenirLTStd;">Have a question? Please
+              drop a message below.</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+
+
+
+
+        <!-- FORM -->
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <form id="contact-form" class="form " action="#" method="POST" role="form">
+                <div class="form-group">
+                  <label class="form-label" for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="NAME" tabindex="1"
+                    required>
+                </div>
+
+                <div class="row">
+
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
+                    <div class="form-group">
+                      <label class="form-label" for="subject">Contact</label>
+                      <input type="text" class="form-control" id="subject" name="subject" placeholder="CONTACT"
+                        tabindex="3">
+                    </div>
+                  </div>
+
+
+
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
+                    <div class="form-group">
+                      <label class="form-label" for="email">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="MAIL" tabindex="2"
+                        required>
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea rows="5" cols="50" name="message" class="form-control" id="message"
+                    placeholder="DESCTRIPTION" tabindex="4" required></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-start-order">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEFORE FOOTER -->
+
+    <div class="container p-0" id="moved">
+      <div class="row align-items-center">
+        <div class="leftouter col-md-6 slideanim">
+          <i class="fa fa-home" style="font-size: 19px;"> <span style="font-family: AvenirLTStd;">&nbsp; SIN MING LANE
+              #06-76 MIDVEW CITY SINGAPORE 573969</span></i>
+          <i class="fa fa-phone" style="font-size: 19.3px;"> <span style="font-family: AvenirLTStd;">&nbsp; +65 6969
+              6690</span></i><br>
+          <i class="fa fa-globe" style="font-size: 19.3px;"> <span style="font-family: AvenirLTStd;"><a href="#"
+                style="text-decoration: none;color:#6F1D1B;">&nbsp; mediaculture.com.sg</a></span></i><br>
+          <i class="fa fa-envelope" style="font-size: 19.3px;"> <span style="font-family: AvenirLTStd;">&nbsp; <a
+                href="mailto:#" style="text-decoration: none;color:#6F1D1B;">Info@mediaculture.com.sg</a></span></i><br>
+          <i class="fa fa-user" style="font-size: 19.3px;"> <span style="font-family: AvenirLTStd;">&nbsp; BUSINESS
+              REGISTRATION 53267</span></i>
+          <audio class="design" autoplay="autoplay" src="The_Escapist.mp3" controls="controls"></audio>
+        </div>
+
+        <div class="col-md-6">
+          <div class="googleMap">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="100%" height="360" id="gmap_canvas"
+                  src="https://maps.google.com/maps?q= MIDVEW CITY SINGAPORE 573969&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><a
+                href="https://www.crocothemes.net"></a>
+              <style>
+                .mapouter {
+                  overflow: hidden;
+                  height: auto;
+                  max-width: 100%;
+                }
+
+                .gmap_canvas {
+                  background: none !important;
+                  height: auto;
+                  max-width: 100%;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="row">
+        <div class="col-xs-6 mx-auto">
+          <div class="slideanim">
+            <a href="#"><i class="facebook fa fa-facebook-f fa-2x"></i></a> &nbsp; &nbsp;
+            <a href="#"><i class="twitter fa fa-twitter-square fa-2x"></i></a> &nbsp; &nbsp;
+            <a href="#"><i class="google fa fa-google-plus fa-2x"></i></a> &nbsp; &nbsp;
+            <a href="#"><i class="linkedin fa fa-linkedin fa-2x"></i></a> &nbsp; &nbsp;
+            <a href="#"><i class="instagram fa fa-instagram fa-2x"></i></a> &nbsp; &nbsp;
+            <a href="#"><i class="youtube fa fa-youtube fa-2x"></i></a> &nbsp; &nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <br><br>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <h6 class="footer" style="font-family: AvenirLTStd;">Copyright &copy Media Culture Audio Visual Motion & Stills |
+        All Rights Reserved </h6>
+    </footer>
+
+  </div>
+  <!--/.ovr-hidden-->
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Creative Scripts -->
+  <script src="js/creative.js"></script>
+
+
+
+</body>
+
+</html>
