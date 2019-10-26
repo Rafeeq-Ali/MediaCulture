@@ -20,7 +20,7 @@ h4,
 h5,
 h6,
 p {
-	color: #000 !important;
+	color: #000;
 }
 
 #aboutPage p {
@@ -789,6 +789,15 @@ section.masthead1 p {
 }
 
 
-/*BEFORE FOOTER*/
 
-div#moved {}
+/*FullScreen section ABOUT*/
+
+#blog-aria .post-slider-area {
+	padding-top: 0 !important;
+}
+
+#blog-aria .post-slider-area .container-fluid .post-detail .post-content .post-meta .c-desc h6,
+#blog-aria .post-slider-area .container-fluid .post-detail .post-content .post-meta .c-desc p,
+#blog-aria .post-slider-area .single-post-carousel .post-details .post-content .details p {
+	color: #fff !important;
+}
